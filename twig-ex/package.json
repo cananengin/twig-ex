@@ -1,0 +1,19 @@
+{
+  "name": "twig-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "express": "^4.17.1",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0",
+    "twig": "^1.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss public/css/tailwind.css -o public/build/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
